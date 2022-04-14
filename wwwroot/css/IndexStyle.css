@@ -1,0 +1,34 @@
+﻿#index {
+    width: 100%;
+}
+
+#datetime {
+    width: 100%;
+}
+
+#weather {
+    width: 100%;
+}
+
+#mapnewsradar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    min-height: 425px;
+    position: relative;
+}
+
+#map {
+    width: 425px;
+    height: 425px;
+}
+
+#news {
+
+}
+
+#radar {
+
+}
