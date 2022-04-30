@@ -4,10 +4,12 @@
     ViewData["Title"] = "Home page";
 }
 
+<!--SET ONLOAD FOR SETFOCUS() SCRIPT ON CALENDAR-->
+
 <div id="index">
     <!--Date / Time-->
     <div id="datetime">
-        <iframe src="https://free.timeanddate.com/clock/i88rrkoi/n105/fn14/fs26/ftb/tt0/tw1/th1/tb4" frameborder="0" width="750" height="64"></iframe>
+        <iframe src="https://free.timeanddate.com/clock/i88rrkoi/n105/fn14/fs26/ftb/tt0/tw1/th1/tb4" frameborder="0" height="64"></iframe>
     </div>  
 
     <!--Weather Widget-->
@@ -32,7 +34,7 @@
    
     <!--Google Calendar-->
     <div id="calendar">
-        <iframe src="https://calendar.google.com/calendar/embed?height=800&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&showTitle=0&showNav=0&showPrint=0&showTabs=0&showCalendars=0&src=ZGFuZHJ6ZWo4MEBnbWFpbC5jb20&src=ZW1oaDF1dDgyNjRtbzc3ZjhjN21zNWVpbjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YW50bmNqb3R0OG1mMWgyYXJlNm5rMmxsdDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZTViMmc3NDdqZ2gydGJnN2lodjVqZ3RkNTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=YWIyN2F2dDZ2ZWkycWVlNmk3bXZyNW92bDlrYTIxZ25AaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=aHQzamxmYWFjNWxmZDYyNjN1bGZoNHRxbDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=Y18zZmI3NnFvYzdqZmZoM3A5ZTJpbXBqOWc5Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=OXNndmFhczNlN2VtbDAycWNsODRtZXAzMnZmaGV0Y2FAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23EF6C00&color=%23E4C441&color=%233F51B5&color=%234285F4&color=%23D81B60&color=%23616161&color=%23795548&color=%23D50000&color=%230B8043" style="border:solid 0px #777" width="1290" height="800" frameborder="0" scrolling="no"></iframe>
+        <iframe src="https://calendar.google.com/calendar/embed?height=930&wkst=2&bgcolor=%23ffffff&ctz=America%2FNew_York&showTitle=0&showNav=0&showPrint=0&showTabs=0&showCalendars=0&src=ZGFuZHJ6ZWo4MEBnbWFpbC5jb20&src=b3Jnc3V1bGdjMnVrb3V1Nmw0N3RvdDZyczhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YW50bmNqb3R0OG1mMWgyYXJlNm5rMmxsdDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZTViMmc3NDdqZ2gydGJnN2lodjVqZ3RkNTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=YWIyN2F2dDZ2ZWkycWVlNmk3bXZyNW92bDlrYTIxZ25AaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=aHQzamxmYWFjNWxmZDYyNjN1bGZoNHRxbDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=Y18zZmI3NnFvYzdqZmZoM3A5ZTJpbXBqOWc5Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=OTUzMTYwNmR1a3VuM3VqcWZ0cXBnb29pbjNsbWJscHJAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23EF6C00&color=%23E4C441&color=%233F51B5&color=%234285F4&color=%23D81B60&color=%23616161&color=%23795548&color=%23D50000&color=%230B8043" style="border-width:0" width="860" height="930" frameborder="0" scrolling="no"></iframe>
     </div>
 
     <!--Live Traffic & Newsfeed & Weather Radar-->
@@ -54,8 +56,8 @@
             <script type="text/javascript"> 
                 rssfeed_url = new Array(); 
                 rssfeed_url[0]="https://rssfeeds.indystar.com/indystar/todaystopstories"; rssfeed_url[1]="http://rss.cnn.com/rss/cnn_topstories.rss";  
-                rssfeed_frame_width="425"; 
-                rssfeed_frame_height="425"; 
+                rssfeed_frame_width="270"; 
+                rssfeed_frame_height="400"; 
                 rssfeed_scroll="on"; 
                 rssfeed_scroll_step="2"; 
                 rssfeed_scroll_bar="off"; 
@@ -91,11 +93,12 @@
             </script> 
             <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
             <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. --> 
-            <div style="color:#ccc;font-size:10px; text-align:right; width:425px;">powered by <a href="https://surfing-waves.com" rel="noopener" target="_blank" style="color:#ccc;">Surfing Waves</a></div> 
+            <!--<div style="color:#ccc;font-size:10px; text-align:right; width:281px;">powered by <a href="https://surfing-waves.com" rel="noopener" target="_blank" style="color:#ccc;">Surfing Waves</a></div> 
             <!-- end sw-rss-feed code -->
+
         </div>
         <div id="radar">
-            <iframe width="425" height="425" src="https://embed.windy.com/embed2.html?lat=39.973&lon=-86.050&detailLat=39.364&detailLon=-84.133&width=425&height=425&zoom=8&level=surface&overlay=radar&product=radar&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1" frameborder="0"></iframe>
+            <iframe width="270" height="400" src="https://embed.windy.com/embed2.html?lat=39.973&lon=-86.050&detailLat=39.364&detailLon=-84.133&width=425&height=425&zoom=8&level=surface&overlay=radar&product=radar&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1" frameborder="0"></iframe>
         </div>
     </div>
 </div>
