@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Web_App_Google_Wall_Calendar</RootNamespace>
+    <Company>Ski Enterprises</Company>
   </PropertyGroup>
 
 </Project>
